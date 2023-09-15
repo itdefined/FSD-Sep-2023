@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,900;1,100;1,500;1,700;1,800&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+}
+/*
+.container{
+	padding: 20px;
+}
+
+
+.heading{
+	text-align: center;
+	font-family: 'Mooli', sans-serif;
+	text-shadow: 5px 5px  5px green, 5px 5px  5px blue;
+}
+
+p{
+	margin: 40px 0px;
+	text-align: justify;
+	line-height: 40px;
+	letter-spacing: 16px;
+	text-indent:100px;
+	font-size: 20px;
+	color: #606060;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+	text-decoration-line: line-through;
+	text-decoration-color: red;
+	text-transform: capitalize;
+}
+
+.red-span{
+	color: red;
+}
+.del-span{
+	text-decoration-line: line-through;
+}
+
+.bigfont{
+	font-size: 100px !important;
+}
+
+
+div{
+	height: 300px;
+	width: 300px;
+	font-size: 56px;
+	float: left;
+}
+
+ul {
+	float: right;
+	padding: 20px 100px;
+}
+
+li{
+	display: inline-block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	border-radius:30px;
+	background-color: #f0f0f0;
+}*/
+/*
+
+
+.div1 {
+	margin: 30px;
+	width:150px;
+	height: 150px;
+	border:1px solid black;
+}
+.div2 {
+	margin: 30px;
+	max-width: 300px;
+	border:1px solid black;
+	max-height: 150px;
+	overflow-y: hidden;
+	overflow-x: scroll;
+}*/
+
+.div_0{
+	height: 80px;
+	width: 70%;
+	background-color: black;
+}
+
+.div_1{
+	height: 80px;
+	width: 100%;
+	background-color: red;
+	border:1px solid #fff;
+}
+
+
+.div_2{
+	position: sticky;
+	height: 80px;
+	width: 100%;
+	background-color: #00ff00;
+	border-radius:80px;
+	left:100px;
+	top:20px;
+}
