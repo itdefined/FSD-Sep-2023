@@ -8,52 +8,78 @@
 	
 }
 
-/* Use T17.html file */
+/*.container{
+	display:grid;*/
+/*	grid-template-rows: 100px 200px 300px 100px 200px 300px 100px 200px 300px;
+	grid-template-columns: 100px 20% 2fr 1fr;*/
+
+/*	grid-template-rows: repeat(4, 100px);
+	grid-template-columns: 100px repeat(2, 1fr) 100px;
+	grid-row-gap:5px;
+	grid-column-gap:5px;*/
+
+
+/*	grid-template-areas: "header header"
+						 "sidebar content"
+						 "footer footer";
+
+   grid-template-rows: 10vh 80vh 10vh;
+   grid-template-columns: 1fr 4fr;
+
+}*/
 
 
 .container{
-		display: 	flex;
-		background-color: 	red;
-		flex-wrap:wrap-reverse;
-		height: 800px;
-		/*		justify-content: space-between;*/
-		/*		align-content: space-around;*/
-		/*		align-item: space-around;*/
+   display:grid;
+   height: 100vh;
+   grid-template-rows: repeat(4, 100px);
+   grid-template-columns: repeat(4, 100px);
+   gap:0.5rem;
+/*   justify-content: end;*/
+/*   justify-content: space-evenly;*/
 
+	align-content: center;
+	justify-content:center;
+}
+
+.container > div{
+	background-color: red;
+	padding: 10px;
+}
+
+#div_1{
+	justify-self: center;
+	align-self: center;
+}
+
+/*#div_2{
+	grid-row-start: header;
+	grid-row-end: header;
+	background-color: green;
+}
+
+#div_5{
+	grid-row-start: footer;
+	grid-row-end: footer;
+	background-color: green;
+}
+#div_6{
+	grid-row-start: footer;
+	grid-row-end: footer;
+	background-color: green;
+}
+
+#div_3{
+	grid-row-start: sidebar;
+	grid-row-end: sidebar;
+	background-color: blue;
+}
+
+#div_4{
+	grid-row-start: content;
+	grid-row-end: content;
 }
 
 
-.container	> div{
-		padding:100px;
-		background-color: 	black	;
-		color: 	#fff;
-		border: 	1px solid gray;
-		width: 300px;
-		height: 100px;
 
-}
-
-
-/*
-align-content
-
-align-items
-
-flex-direction
-
-
-flex-warp
-
-jutify
-
-flex-flow*/
-
-
-
-
-
-
-
-
-
-
+*/
